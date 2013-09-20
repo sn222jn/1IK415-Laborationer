@@ -17,11 +17,48 @@
                 </ul>  
             </nav>
         </div>
-        <p>
-            Sylvester Norrbjörk
-            +39 3297563524
-            norrbjork@gmail.com
-            skype: norrbjork
+        <div id="contact">
+            <form id="contact-form" action="script.php" method="post">
+            <input type="hidden" name="redirect" value="../index.html" />
+                <fieldset>
+                    <legend>Ange namn och e-post adress</legend>
+                    <p>
+                    <label for="name">Namn:</label> <input type="text" name="name" id="name" value="" />
+                    </p>
+                    <p>
+                    <label for="email">E-post:</label> <input type="text" name="email" id="email" value="" />
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Välj hur ni vill kontakta mig</legend>
+                    <p>
+                    <label for="mail">E-post</label> <input type="radio" name="contact" id="mail" value="mail" checked="checked">
+                    </p>
+                    <p>
+                    <label for="phone">Telefon</label> <input type="radio" name="contact" id="phone" value="phone"></li>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Ange fråga och meddelande</legend>
+                    <select name="Fråga" id="question">
+                        <option value="">Vad gäller det?</option>
+                        <option value="website">Webbsidan</option>
+                        <option value="lab">Laborationer</option>
+                        <option value="project">Projekt</option>
+                        <option value="other">Annat</option>
+                    </select>
+                    <p>
+                    <label for="message">Meddelande:</label> 
+                    </p>
+                    <p>
+                    <textarea name="message" id="message" cols="25" rows="3"></textarea>
+                    </p>
+                </fieldset>
+                <input type="submit" value="submit" />
+                <input type="reset" value="reset" />
+            </form>
+        </div>
+        <p></p>
         </p>
     </body>
 </html>
