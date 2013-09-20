@@ -21,3 +21,9 @@ h1 {
 p {
 	font-family: Georgia, serif;
 }
+/* Table
+-------------------------*/
+table, th, td {
+    border: 1px solid gray
+
+}
