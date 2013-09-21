@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Laborationsportalen</title>
+        <meta charset="utf-8">
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div id="header">
+            
+        </div>
+        <div id="navigation">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Start</a></li>
+                    <li><a href="presentation.html">Presentation</a></li>
+                    <li><a href="laborationer.html">Laborationer</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>  
+            </nav>
+        </div>
+        
+        <div id="content">
+            <h1>Laborationsportalen</h1>  
+            <h2>Webbteknisk Introduktion</h2>
+            <ol>
+                <li><a href="#laboration1">Laboration 1</a></li>
+                <li><a href="#laboration2">Laboration 2</a></li>
+                <li><a href="#laboration3">Laboration 3</a></li>
+            </ol>
+            <h3>Resultat</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Laboration</th>
+                        <th>Uppgift</th>
+                        <th>Status</th>
+                        <th>Redovisad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr rowspan="3">
+                        <td>1</td>
+                        <td>1</td>
+                        <td>Färdig</td>
+                        <td>2013-09-19</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>2</td>
+                        <td>Färdig</td>
+                        <td>2013-09-19</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>3</td>
+                        <td>Färdig</td>
+                        <td>2013-09-19</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>4</td>
+                        <td>Färdig</td>
+                        <td>2013-09-19</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>5</td>
+                        <td>Färdig</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>6</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>7</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>8</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>9</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr rowspan="6">
+                        <td>2</td>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>2</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>3</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>4</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>5</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>6</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Laborationsresultat gällande Sylvester Norrbjörk</td>
+                    </tr>
+                </tfoot>
+            </table>
+            
+            <h3>Laboration 1</h3>
+            <a name="laboration1"></a>
+                <ol>
+                    <li><a href="">Uppgift 1.1 - Utvecklingsmiljön</a></li>
+                    <li><a href="">Uppgift 1.2 - Ett första dokument</a></li>
+                    <li><a href="">Uppgift 1.3 - Startsidan</a></li>
+                    <li><a href="">Uppgift 1.4 - Absoluta/Relativa sökvägar</a></li>
+                    <li><a href="">Uppgift 1.5 - Länkar och mer listor</a></li>
+                    <li><a href="../index.html/#olive/">Uppgift 1.6 - Bilder</a></li>
+                    <li><a href="">Uppgift 1.7 - Video</a></li>
+                    <li><a href="">Uppgift 1.8 - Tabeller</a></li>
+                    <li><a href="">Uppgift 1.9 - Formulär</a></li>
+                </ol>
+            <h3>Laboration 2</h3>
+            <a name="laboration2"></a>
+                <ol>
+                    <li></li>
+                </ol>
+            <h3>Laboration 3</h3>
+            <a name="laboration3"></a>
+                <ol>
+                    <li></li>
+                </ol>
+        </div>
+        
+        
+    </body>
+</html>
