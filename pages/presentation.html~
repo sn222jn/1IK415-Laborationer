@@ -3,6 +3,7 @@
     <head>
         <title>Presentation</title>
         <meta charset="utf-8">
+        
         <link href="css/style.css" rel="stylesheet" type="text/css"/>      
     </head>
     <body>
@@ -16,7 +17,7 @@
                 </ul>  
             </nav>
         </div>
-        <div><img src="../pics/imgSN.jpg" alt=""></div>
+        <div "my-pic"><img src="../pics/imgSN.jpg" alt="En bild på mig"></div>
     	<div id="content">
     	<h1>Vem är Sylvester Norrbjörk?</h1>
     	

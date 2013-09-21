@@ -3,6 +3,7 @@
     <head>
         <title>Kontakt</title>
         <meta charset="utf-8">
+        
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
@@ -29,7 +30,7 @@
                     <label for="email">E-post:</label> <input type="email" name="email" id="email" value="" />
                     </p>
                     <p>
-                    <label for="phone">E-post:</label> <input type="number" name="phone" id="phone" value="" />
+                    <label for="phone">Telefon:</label> <input type="number" name="phone" id="phone" value="" />
                     </p>
                 </fieldset>
                 <fieldset>

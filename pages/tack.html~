@@ -16,9 +16,8 @@
                 </ul>  
             </nav>
         </div>
-        <div id="content">
-        		<h1>Kontakt</h1>
-            <h3>Meddelandet har skickats!</h3>
+        <div id="thanks">
+        		<h2>Meddelandet har skickats!</h2>
             <p>Jag återkommer så fort som möjligt.</p>
         </div>
         <p></p>

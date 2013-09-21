@@ -3,9 +3,11 @@
     <head>
         <title>Sylvester's Site</title>
         <meta charset="utf-8">
+        
         <link href="pages/css/style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
+    	<div id="container">
         <div id="header">
             
         </div>
@@ -43,6 +45,6 @@
             </video> 
         </div>
         
-        
+       </div> 
     </body>
 </html>
