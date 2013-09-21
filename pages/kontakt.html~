@@ -6,27 +6,30 @@
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <h1>Kontakt</h1>
         <div id="navigation">
             <nav>
                 <ul>
-                    <li><a href="index.html">Start</a></li>
+                    <li><a href="../index.html">Start</a></li>
                     <li><a href="presentation.html">Presentation</a></li>
                     <li><a href="laborationer.html">Laborationer</a></li>
                     <li><a href="kontakt.html">Kontakt</a></li>
                 </ul>  
             </nav>
         </div>
+        <h1>Kontakt</h1>
         <div id="contact">
-            <form id="contact-form" action="script.php" method="post">
-            <input type="hidden" name="redirect" value="../index.html" />
+            <form id="contact-form" action=" http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+            <input type="hidden" name="redirect" value="tack.html" />
                 <fieldset>
                     <legend>Ange namn och e-post adress</legend>
                     <p>
-                    <label for="name">Namn:</label> <input type="text" name="name" id="name" value="" />
+                    	<label for="name">Namn:</label> <input type="text" name="name" id="name" value="" />
                     </p>
                     <p>
-                    <label for="email">E-post:</label> <input type="text" name="email" id="email" value="" />
+                    <label for="email">E-post:</label> <input type="email" name="email" id="email" value="" />
+                    </p>
+                    <p>
+                    <label for="phone">E-post:</label> <input type="number" name="phone" id="phone" value="" />
                     </p>
                 </fieldset>
                 <fieldset>
@@ -38,27 +41,29 @@
                     <label for="phone">Telefon</label> <input type="radio" name="contact" id="phone" value="phone"></li>
                     </p>
                 </fieldset>
+                
                 <fieldset>
-                    <legend>Ange fråga och meddelande</legend>
-                    <select name="Fråga" id="question">
-                        <option value="">Vad gäller det?</option>
+                	<legend>Ange fråga och meddelande</legend>
+                  	<select name="Fråga" id="question">
+                     	<option value="">Vad gäller det?</option>
                         <option value="website">Webbsidan</option>
                         <option value="lab">Laborationer</option>
                         <option value="project">Projekt</option>
                         <option value="other">Annat</option>
-                    </select>
-                    <p>
-                    <label for="message">Meddelande:</label> 
-                    </p>
-                    <p>
-                    <textarea name="message" id="message" cols="25" rows="3"></textarea>
-                    </p>
+                    	</select>
+                    	<p>
+                    		<label for="message">Meddelande:</label> 
+                  	</p>
+                  <p>
+                  	<textarea name="message" id="message" cols="30" rows="10"></textarea>
+                	</p>
                 </fieldset>
-                <input type="submit" value="submit" />
-                <input type="reset" value="reset" />
+                <p></p>
+                	<input type="submit" value="submit" />
+                	<input type="reset" value="reset" />
+                
             </form>
         </div>
         <p></p>
-        </p>
-    </body>
+	</body>
 </html>

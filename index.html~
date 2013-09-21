@@ -28,13 +28,16 @@
             <h1>Sylvester's Site</h1>  
             <p>Hello, World!</p>
             <p>Det här är min först personliga webbsida. Jag har skapat ett par sidor innan men aldrig en egen sida. Jag vet inte exakt vad jag kommer publicera på sidan men jag har skapat själva strukturen och nu får vi se vad som växer fram...</p>
+            
             <h2>Kursblog</h2>
+            
             <h4><em>21 September, 2013</em></h4>
             <p>Idag har jag skapat en vector bild i formatet SVG (Scalable Vector Graphics).</p>
-            <img name="olive" src="pics/olive.svg" alt="An olive branch">
+            <img id="olive" src="pics/olive.svg" alt="An olive branch">
+            
             <h4><em>20 September, 2013</em></h4>
             <p>Idag ska jag lägga till en video på min webbsida. Det är första gången jag lägger till video på en sida så det är spännande att se hur det blir.</p>
-            <video width="320" height="240" controls>
+            <video id="rabbit" width="320" height="240" controls>
             	<source src="videos/trailer_400p.mp4" type="video/mp4">
             	<source src="videos/trailer_400p.ogg" type="video/ogg">
             </video> 
