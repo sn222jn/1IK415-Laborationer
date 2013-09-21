@@ -6,6 +6,12 @@
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
+    	<div id="container">
+    		<div id="header">
+        	<div id="logo">
+				<img src="pics/SN.png" alt="Logo">        
+        	</div> 
+        </div>
         <div id="navigation">
             <nav>
                 <ul>
@@ -21,5 +27,6 @@
             <p>Jag återkommer så fort som möjligt.</p>
         </div>
         <p></p>
+  		</div>
 	</body>
 </html>
