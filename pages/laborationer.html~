@@ -18,7 +18,7 @@
                 <ul>
                     <li><a href="../index.html">Start</a></li>
                     <li><a href="presentation.html">Presentation</a></li>
-                    <li><a href="laborationer.html" class="active">Laborationer</a></li>
+                    <li><a class="active" href="#">Laborationer</a></li>
                     <li><a href="kontakt.html">Kontakt</a></li>
                 </ul>  
             </nav>
@@ -109,6 +109,47 @@
                     </tr>
                     <tr>
                         <td>4</td>
+                        <td>Färdig</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Färdig</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Färdig</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Färdig</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Färdig</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="9">3</td>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -129,6 +170,11 @@
                     </tr>
                     <tr>
                         <td>8</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -163,9 +209,19 @@
 						<li>Uppgift 2.4 – Menyn</li>
 						<li>Uppgift 2.5 – Typografi</li>
 						<li>Uppgift 2.6 – Övrigt</li>
-						<li>Uppgift 2.7 – Ny bloggpost</li>
-						<li>Uppgift 2.8 – Laborationssidan</
+						<li><a href="../index.html#feather">Uppgift 2.7 – Ny bloggpost</li>
+						<li>Uppgift 2.8 – Laborationssidan</li>
 
+                </ol>
+            <h3>Laboration 3</h3>
+            <a name="laboration3"></a>
+                <ol>
+                	<li>Uppgift 3.1 – </li>
+                  <li>Uppgift 3.2 – </li>
+						<li>Uppgift 3.3 – </li>
+						<li>Uppgift 3.4 – </li>
+						<li>Uppgift 3.5 – </li>
+						<li>Uppgift 3.6 – </li>
                 </ol>
         	</div> 
             

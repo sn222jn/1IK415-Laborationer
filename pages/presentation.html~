@@ -17,7 +17,7 @@
             <nav>
                 <ul>
                     <li><a href="../index.html">Start</a></li>
-                    <li><a href="presentation.html" class="active">Presentation</a></li>
+                    <li><a class="active" href="#">Presentation</a></li>
                     <li><a href="laborationer.html">Laborationer</a></li>
                     <li><a href="kontakt.html">Kontakt</a></li>
                 </ul>  
@@ -25,9 +25,9 @@
         </div>
         
     	<div id="content">
-    	<img src="../pics/imgSN.jpg" alt="En bild på mig">
-    	<h1>Vem är Sylvester Norrbjörk?</h1>
     	
+    	<h1>Vem är Sylvester Norrbjörk?</h1>
+    		<img class="right" src="../pics/imgSN.jpg" alt="En bild på mig">
 	        <p>Mitt namn är Sylvester Norrbjörk och är 33 år gammal. Jag är född i Dalarna men jag har vuxit upp och bott på flera ställen. När jag var 9 skickades jag till Indien där jag gjorde grundskolan och en del 	gymnasiet i en engelsk internatskola.
 			
 			<p>När jag fyllde 16 så reste jag till Mexiko. Tanken var att det skulle var ett kort besök men det slutade med att jag stannade där i ett och halft 

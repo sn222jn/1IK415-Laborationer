@@ -1,3 +1,6 @@
+body {
+	background-image: url("pics/mixedwide.png");
+}
 /* Container div
 -------------------------*/
 #container {
@@ -6,7 +9,7 @@
 	margin-right: auto;
 	border: 5px #83004F solid;
 	border-radius: 20px;
-	background-color: #white;
+	background-color: white;
 	position: relative;
 	z-index: 100
 }
@@ -17,12 +20,11 @@
 	width: 960px;
 	/* border: 5px solid #8AB32D;
 	border-radius: 15px 15px 0 0; */
-	background-image: url("pics/linnaeus.png");
+	background-image: url("pics/linnaeusLogo.png");
 	background-repeat: no-repeat;
 	background-position: 5% 40%;
-	background-color: #DC63C2;
-
-	margin-left:;
+	background-color: #DE97BF;
+ 	border-radius: 15px 15px 0 0;
 }
 /* Content div
 --------------------------*/
@@ -46,6 +48,7 @@
 	background-image: url("pics/gerbera.jpg");
 	background-repeat: no-repeat;
 	background-position: right;
+	border-radius: 0 0 15px 0;
 	z-index: 250;
 
 
@@ -60,6 +63,11 @@
 	background-color: #6B9B00;	
 	margin: 0; /* Removes li a indention */
 	padding: 0; /* Removes li a indention */
+	
+	/* Add shadow*/
+	-moz-box-shadow: 5px 5px 5px #2E2E2E;
+	-webkit-box-shadow: 5px 5px 5px #2E2E2E;
+	box-shadow: 5px 5px 5px #2E2E2E;
 }
 #navigation ul {
 	list-style: none;
@@ -87,10 +95,13 @@
 	color: #A5EF00;
 	background-color: #97266A;
 }
-.active li a:active {
+
+/* Selected menu link */
+.active {
+	background-color: #DC37B8;
 	color: #A5EF00;
-	background-color: #97266A;
 }
+
 
 
 /* Headings
@@ -122,24 +133,35 @@ h4 {
 	margin-left: 800px;
 	margin-top: 20px;
 }
-/* My picture on presentation page
----------------------------*/
-#myPic {
-	margin-left: 40%;
-}
 
 /* Blog
 ---------------------------*/
-.blogMedia {
-	width: auto;
-	margin-left: 20%;
+.blogCenter {
+	margin-left: 30%;
+	background-color: white;
+	border:2px solid black;
+
+}
+.blogVideo { 
+	width: 	auto;
+	margin-left: 18%;
 }
 .blogEntry {
-
+	background-color: #D9F970;
+	border: 1px dashed gray;
+	padding: 25px;
+	margin-top: 25px;
+	
+	/* Add shadow */
+	-moz-box-shadow: 5px 5px 5px #2E2E2E;
+	-webkit-box-shadow: 5px 5px 5px #2E2E2E;
+	box-shadow: 5px 5px 5px #2E2E2E;
 }
 .right {
 	position: relative;
 	float: right;
+	margin: 10px;
+	border: 2px solid black;
 }
 
 /* Thanks message
@@ -160,9 +182,10 @@ fieldset p:first-letter {
 -------------------------*/
 table, th, td {
     border: 1px solid #8B2374;
-    box-shadow: #ccc 0 0 15px;
     font-family: Verdana, sans-serif;
     background: #eee;
+    text-align: center;
+    
  }     
 #lab-report {
 	margin-left: 60px;
@@ -176,6 +199,9 @@ table, th, td {
 	border: 1px solid #ddd;
 	background: #eee;
 	padding: 0.5em; 
-	box-shadow: #ccc 0 0 15px;
+	-moz-box-shadow: 5px 5px 5px #2E2E2E;
+	-webkit-box-shadow: 5px 5px 5px #2E2E2E;
+	box-shadow: 5px 5px 5px #2E2E2E;
+
 }
 
