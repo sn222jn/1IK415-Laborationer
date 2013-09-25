@@ -9,23 +9,21 @@
     <body>
     	<div id="container">
         <div id="header">
-            
+        	<div id="logo">
+				<img src="pics/SN.png" alt="Logo">        
+        	</div> 
         </div>
         <div id="navigation">
             <nav>
                 <ul>
-                    <li><a href="index.html">Start</a></li>
+                    <li><a href="index.html" class="active">Start</a></li>
                     <li><a href="pages/presentation.html">Presentation</a></li>
                     <li><a href="pages/laborationer.html">Laborationer</a></li>
                     <li><a href="pages/kontakt.html">Kontakt</a></li>
                 </ul>  
             </nav>
         </div>
-        
-        <div id="logo">
-				<img src="pics/SN.png" alt="Logo">        
-        </div>
-        
+                     
         <div id="content">
             <h1>Sylvester's Site</h1>  
             <p>Hello, World!</p>
@@ -33,18 +31,32 @@
             
             <h2>Kursblog</h2>
             
-            <h4><em>21 September, 2013</em></h4>
-            <p>Idag har jag skapat en vector bild i formatet SVG (Scalable Vector Graphics).</p>
-            <img id="olive" src="pics/olive.svg" alt="An olive branch">
+            <div class="blogEntry">
+	            <h4><em>25 September, 2013</em></h4>
+	            <p>Jag håller på med C# förfullt men jag måste ändå hitta lite tid till HTML/CSS. Trots att det är relativt enkelt så är det alltid något som inte fungerar som det ska. Idag t.ex. så ville inte z-index fungera trots att jag använde position: absolute i CSS. Idag lärde jag mig också att justera bilder till höger, vänster och centralt.</p>
+					<p>Jag vill passa på att visa en teckning som en väninna gjorde till mig när jag höll på att göra en websida åt en förskola. Den är inspirerad av en påfågelsfjäder.</p>
+					<img class="right" src="pics/feather.png" alt="A feather">
+				</div>
+				
+				<div class="blogEntry">
+	            <h4><em>21 September, 2013</em></h4>
+	            <p>Idag har jag skapat en vector bild i formatet SVG (Scalable Vector Graphics).</p>
+	            <img class="blogCenter" src="pics/olive.svg" alt="An olive branch">
+            </div>
             
-            <h4><em>20 September, 2013</em></h4>
-            <p>Idag ska jag lägga till en video på min webbsida. Det är första gången jag lägger till video på en sida så det är spännande att se hur det blir.</p>
-            <video id="rabbit" width="320" height="240" controls>
-            	<source src="videos/trailer_400p.mp4" type="video/mp4">
-            	<source src="videos/trailer_400p.ogg" type="video/ogg">
-            </video> 
+            <div class="blogEntry">
+	            <h4><em>20 September, 2013</em></h4>
+	            <p>Idag ska jag lägga till en video på min webbsida. Det är första gången jag lägger till video på en sida så det är spännande att se hur det blir.</p>
+	            <video class="blogMedia" width="320" height="240" controls>
+	            	<source src="videos/trailer_400p.mp4" type="video/mp4">
+	            	<source src="videos/trailer_400p.ogg" type="video/ogg">
+	            </video>
+            </div> 
+            
         </div>
-        
+      	<div id="footer">
+				      	
+      	</div>
        </div> 
     </body>
 </html>

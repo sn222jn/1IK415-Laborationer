@@ -8,28 +8,49 @@
 	border-radius: 20px;
 	background-color: #white;
 	position: relative;
+	z-index: 100
 }
-/* Header
+/* Header div
 --------------------------*/
 #header {
-	height: 140px;
-	width: auto;
+	height: 170px;
+	width: 960px;
 	/* border: 5px solid #8AB32D;
 	border-radius: 15px 15px 0 0; */
+	background-image: url("pics/linnaeus.png");
+	background-repeat: no-repeat;
+	background-position: 5% 40%;
+	background-color: #DC63C2;
+
+	margin-left:;
 }
 /* Content div
 --------------------------*/
 #content {
 
-	width: auto;
+	width: 75%;
 	height: 80%;
 	margin-left: 170px;
-	margin-right: auto;
+
 	margin-top: auto;
 	font-family: Garamond, serif;
 	font-size: 1.3em;
 	padding: 2em;
+	z-index: 150;
 }
+/* Footer div
+-------------------------*/
+#footer {
+	width: auto;
+	height: 150px;
+	background-image: url("pics/gerbera.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	z-index: 250;
+
+
+}
+
 /* Navigation menu
 -------------------------*/
 #navigation {
@@ -62,11 +83,11 @@
 	border: 2px solid #BEF73E;
 }
 
-#navigation li a:active {
+#navigation li a:hover { /* Change color when hovering */
 	color: #A5EF00;
 	background-color: #97266A;
 }
-#navigation li a:hover { /* Change color when hovering */
+.active li a:active {
 	color: #A5EF00;
 	background-color: #97266A;
 }
@@ -103,16 +124,22 @@ h4 {
 }
 /* My picture on presentation page
 ---------------------------*/
-#my-pic {
-	position: absolute;
-	margin-left: 200px;
-
-	
+#myPic {
+	margin-left: 40%;
 }
-#rabbit, #olive {
+
+/* Blog
+---------------------------*/
+.blogMedia {
 	width: auto;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 20%;
+}
+.blogEntry {
+
+}
+.right {
+	position: relative;
+	float: left;
 }
 
 /* Thanks message
@@ -121,14 +148,10 @@ h4 {
 	text-align: center;
 	font-family: Georgia, serif;
 }
-
-/* Nav
---------------------------*/
-
 /* Text formatting
 --------------------------*/
 p:first-letter {
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 fieldset p:first-letter {
 	font-size: 1em;
@@ -138,8 +161,9 @@ fieldset p:first-letter {
 table, th, td {
     border: 1px solid #8B2374;
     box-shadow: #ccc 0 0 15px;
-      
-}
+    font-family: Verdana, sans-serif;
+    background: #eee;
+ }     
 #lab-report {
 	margin-left: 60px;
 }

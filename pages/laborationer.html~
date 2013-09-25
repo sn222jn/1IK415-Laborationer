@@ -18,19 +18,21 @@
                 <ul>
                     <li><a href="../index.html">Start</a></li>
                     <li><a href="presentation.html">Presentation</a></li>
-                    <li><a href="laborationer.html">Laborationer</a></li>
+                    <li><a href="laborationer.html" class="active">Laborationer</a></li>
                     <li><a href="kontakt.html">Kontakt</a></li>
                 </ul>  
             </nav>
         </div>
         
         <div id="content">
-            <h1>Laborationsportalen</h1>  
+            <h1>Laborationsportalen</h1>
+            
+            <div id="lab-report"> 
             <h2>Webbteknisk Introduktion</h2>
-            <ol class="lablist">
+            <ol>
                 <li><a href="#laboration1">Laboration 1</a></li>
                 <li><a href="#laboration2">Laboration 2</a></li>
-               
+                <li><a href="#laboration3">Laboration 3</a></li>
             </ol>
             <h3>Resultat</h3>
             <table id="results">
@@ -140,7 +142,7 @@
             </table>
             
             <h3>Laboration 1</h3>
-            <a class="lablist" name="laboration1"></a>
+            <a name="laboration1"></a>
                 <ol>
                     <li>Uppgift 1.1 - Utvecklingsmiljön</li>
                     <li><a href="presentation.html">Uppgift 1.2 - Ett första dokument</a></li>
@@ -153,20 +155,23 @@
                     <li><a href="kontakt.html#contact-form">Uppgift 1.9 - Formulär</a></li>
                 </ol>
             <h3>Laboration 2</h3>
-            <a class="lablist" name="laboration2"></a>
+            <a name="laboration2"></a>
                 <ol>
-                	<li>Uppgift 3.1 – Använda stilmallar</li>
-                  <li>Uppgift 3.2 – Layout</li>
-						<li>Uppgift 3.3 – Färgsättning</li>
-						<li>Uppgift 3.4 – Menyn</li>
-						<li>Uppgift 3.5 – Typografi</li>
-						<li>Uppgift 3.6 – Övrigt</li>
-						<li>Uppgift 3.7 – Ny bloggpost</li>
-						<li>Uppgift 3.8 – Laborationssidan</
+                	<li>Uppgift 2.1 – Använda stilmallar</li>
+                  <li>Uppgift 2.2 – Layout</li>
+						<li>Uppgift 2.3 – Färgsättning</li>
+						<li>Uppgift 2.4 – Menyn</li>
+						<li>Uppgift 2.5 – Typografi</li>
+						<li>Uppgift 2.6 – Övrigt</li>
+						<li>Uppgift 2.7 – Ny bloggpost</li>
+						<li>Uppgift 2.8 – Laborationssidan</
 
                 </ol>
+        	</div> 
             
         </div>
-        
+        <div id="footer">
+				      	
+      	</div>
     	</div>    
     </body>
