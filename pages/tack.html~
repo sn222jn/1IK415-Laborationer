@@ -3,14 +3,12 @@
     <head>
         <title>Kontakt</title>
         <meta charset="utf-8">
-        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
     	<div id="container">
     		<div id="header">
-        	<div id="logo">
-				<img src="pics/SN.png" alt="Logo">        
-        	</div> 
+        	<div id="rightLogo"></div>
         </div>
         <div id="navigation">
             <nav>

@@ -4,14 +4,12 @@
         <title>Presentation</title>
         <meta charset="utf-8">
         
-        <link href="css/style.css" rel="stylesheet" type="text/css"/>      
+        <link href="../css/style.css" rel="stylesheet" type="text/css"/>      
     </head>
     <body>
     	<div id="container">
     		<div id="header">
-        	<div id="logo">
-				<img src="../pics/SN.png" alt="Logo">        
-        	</div> 
+        	<div id="rightLogo"></div>
         </div>
         <div id="navigation">
             <nav>
@@ -26,7 +24,7 @@
         
     	<div id="content">
     	
-    	<h1>Vem är Sylvester Norrbjörk?</h1>
+    	<h1>Vem är jag?</h1>
     		<img class="right" src="../pics/imgSN.jpg" alt="En bild på mig">
 	        <p>Mitt namn är Sylvester Norrbjörk och är 33 år gammal. Jag är född i Dalarna men jag har vuxit upp och bott på flera ställen. När jag var 9 skickades jag till Indien där jag gjorde grundskolan och en del 	gymnasiet i en engelsk internatskola.
 			

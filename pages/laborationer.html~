@@ -3,14 +3,12 @@
     <head>
         <title>Laborationsportalen</title>
         <meta charset="utf-8">
-        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
     	<div id="container">
     		<div id="header">
-        	<div id="logo">
-				<img src="../pics/SN.png" alt="Logo">        
-        	</div> 
+        	<div id="rightLogo"></div>
         </div>
         
         <div id="navigation">
@@ -209,7 +207,7 @@
 						<li>Uppgift 2.4 – Menyn</li>
 						<li>Uppgift 2.5 – Typografi</li>
 						<li>Uppgift 2.6 – Övrigt</li>
-						<li><a href="../index.html#feather">Uppgift 2.7 – Ny bloggpost</li>
+						<li><a href="../index.html#feather">Uppgift 2.7 – Ny bloggpost</a></li>
 						<li>Uppgift 2.8 – Laborationssidan</li>
 
                 </ol>

@@ -25,7 +25,16 @@ body {
 	background-position: 5% 40%;
 	background-color: #DE97BF;
  	border-radius: 15px 15px 0 0;
+ 	
 }
+#.rightLogo {
+	height: 170px;
+	width: auto;
+	background-image: url("pics/SN.png");
+	background-position: 96% 40%;
+	background-repeat: no-repeat;
+}
+
 /* Content div
 --------------------------*/
 #content {

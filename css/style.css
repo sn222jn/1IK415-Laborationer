@@ -23,9 +23,18 @@ body {
 	background-image: url("pics/linnaeusLogo.png");
 	background-repeat: no-repeat;
 	background-position: 5% 40%;
-	background-color: #DC63C2;
+	background-color: #DE97BF;
  	border-radius: 15px 15px 0 0;
+ 	
 }
+.rightLogo {
+	height: 170px;
+	width: auto;
+	background-image: url("pics/SN.png");
+	background-position: 96% 40%;
+	background-repeat: no-repeat;
+}
+
 /* Content div
 --------------------------*/
 #content {
