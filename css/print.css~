@@ -1,0 +1,40 @@
+
+body {
+	background-color: white;
+	font-size: 14px;
+	border: 0;
+}
+#navigation, #header, video {
+	display: none;
+}
+#container, #contents {
+	width: auto; 
+	margin: 0 5%;
+	margin-left: -150px; 
+	padding: 0; 
+	float: none;
+}
+div {
+	border: 0;
+	border-color: white; 
+}
+
+/* Show the link addresses */
+a:link, a:visited {
+	color:#333; 
+	text-decoration:none;
+}
+a:link[href^="http://"]:after, a[href^="http://"]:visited:after {
+	content: " (" attr(href) ") ";
+}
+a[href^="http://"] {
+	color: blue;
+}
+
+/* Remove shadow */
+div {
+	box-shadow: none;
+}
+#contact-form {
+	box-shadow: none;
+}

@@ -4,12 +4,14 @@
         <title>Sylvesters Sida</title>
         <meta charset="utf-8">
         
+        <link href="css/stylePrint.css" rel="stylesheet" type="text/css"/ media="print">
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        
     </head>
     <body>
     	<div id="container">
         <div id="header">
-        		<div id="rightLogo"></div>
+        		<div class="rightLogo"></div>
         </div>
         <div id="navigation">
             <nav>

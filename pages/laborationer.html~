@@ -4,11 +4,12 @@
         <title>Laborationsportalen</title>
         <meta charset="utf-8">
         <link href="../css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/print.css" rel="stylesheet" type="text/css"/ media="print">
     </head>
     <body>
     	<div id="container">
     		<div id="header">
-        	<div id="rightLogo"></div>
+        	<div class="rightLogo"></div>
         </div>
         
         <div id="navigation">
@@ -67,78 +68,78 @@
                     <tr>
                         <td>5</td>
                         <td>Färdig</td>
-                        <td></td>
+                        <td>2013-09-26</td>
                     </tr>
                     <tr>
                         <td>6</td>
                         <td>Färdig</td>
-                        <td></td>
+                        <td>2013-09-26</td>
                     </tr>
                     <tr>
                         <td>7</td>
                         <td>Färdig</td>
-                        <td></td>
+                        <td>2013-09-26</td>
                     </tr>
                     <tr>
                         <td>8</td>
                         <td>Färdig</td>
-                        <td></td>
+                        <td>2013-09-26</td>
                     </tr>
                     <tr>
                         <td>9</td>
                         <td>Färdig</td>
-                        <td></td>
+                        <td>2013-09-26</td>
                     </tr>
                     <tr>
                         <td rowspan="8">2</td>
                         <td>1</td>
                         <td>Färdig</td>
-                        <td></td>
+                        <td>2013-09-26</td>
                     </tr>
                     <tr>
                         <td>2</td>
                         <td>Färdig</td>
-                        <td></td>
+                        <td>2013-09-26</td>
                     </tr>
                     <tr>
                         <td>3</td>
                         <td>Färdig</td>
-                        <td></td>
+                        <td>2013-09-26</td>
                     </tr>
                     <tr>
                         <td>4</td>
                         <td>Färdig</td>
-                        <td></td>
+                        <td>2013-09-26</td>
                     </tr>
                     <tr>
                         <td>5</td>
                         <td>Färdig</td>
-                        <td></td>
+                        <td>2013-09-26</td>
                     </tr>
                     <tr>
                         <td>6</td>
                         <td>Färdig</td>
-                        <td></td>
+                        <td>2013-09-26</td>
                     </tr>
                     <tr>
                         <td>7</td>
                         <td>Färdig</td>
-                        <td></td>
+                        <td>2013-09-26</td>
                     </tr>
                     <tr>
                         <td>8</td>
                         <td>Färdig</td>
-                        <td></td>
+                        <td>2013-09-26</td>
                     </tr>
                     <tr>
                         <td rowspan="9">3</td>
                         <td>1</td>
-                        <td></td>
+                        <td>Färdig</td>
                         <td></td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td></td>
+                        <td>Färdig</td>
                         <td></td>
                     </tr>
                     <tr>
@@ -214,13 +215,12 @@
             <h3>Laboration 3</h3>
             <a name="laboration3"></a>
                 <ol>
-                	<li>Uppgift 3.1 – </li>
-                  <li>Uppgift 3.2 – </li>
-						<li>Uppgift 3.3 – </li>
-						<li>Uppgift 3.4 – </li>
-						<li>Uppgift 3.5 – </li>
-						<li>Uppgift 3.6 – </li>
-                </ol>
+                	<li>Uppgift 3.1 – Stila formuläret</li>
+                  <li>Uppgift 3.2 – Utskriftsvänlig version</li>
+						<li>Uppgift 3.3 – Copycat</li>
+						<li>Uppgift 3.4 – CSS Sprites</li>
+						<li>Uppgift 3.5 – CSS3</li>
+					</ol>
         	</div> 
             
         </div>

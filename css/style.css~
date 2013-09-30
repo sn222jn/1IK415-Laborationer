@@ -27,7 +27,7 @@ body {
  	border-radius: 15px 15px 0 0;
  	
 }
-#.rightLogo {
+.rightLogo {
 	height: 170px;
 	width: auto;
 	background-image: url("pics/SN.png");
@@ -44,8 +44,8 @@ body {
 	margin-left: 170px;
 
 	margin-top: auto;
-	font-family: Garamond, serif;
-	font-size: 1.3em;
+	font-family: Georgia, serif;
+	font-size: 1em;
 	padding: 2em;
 	z-index: 150;
 }
