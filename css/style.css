@@ -1,5 +1,17 @@
+/* Colors
+-------------------
+Menu 407cc3
+Menu font 83004F
+Menu hover 26b8d7
+Menu selected item bf5ef4
+blogEntry edcdea
+h1 79005E, h2 799E00
+h3, h4 96B62E
+
+-----------------*/
+
 body {
-	background-image: url("pics/mixedwide.png");
+	background-image: url("pics/mixedwide3.png")
 }
 /* Container div
 -------------------------*/
@@ -20,12 +32,12 @@ body {
 	width: 960px;
 	/* border: 5px solid #8AB32D;
 	border-radius: 15px 15px 0 0; */
-	background-image: url("pics/linnaeusLogo.png");
+	background-image: url("pics/linnaeusLogo2.png");
 	background-repeat: no-repeat;
 	background-position: 5% 40%;
-	background-color: #DE97BF;
+	/*background-color: #ceeff7;*/
  	border-radius: 15px 15px 0 0;
- 	
+ 	border-bottom: 7px solid #bf5ef4;
 }
 .rightLogo {
 	height: 170px;
@@ -67,7 +79,7 @@ body {
 	position: fixed;
 	width: 170px;
 	height: auto;
-	background-color: #6B9B00;	
+	background-color: #407cc3;	
 	margin: 0; /* Removes li a indention */
 	padding: 0; /* Removes li a indention */
 	
@@ -95,19 +107,16 @@ body {
 	font-size: 1.2em;
 	text-align: left;
 	margin-left: 0;
-	border: 2px solid #BEF73E;
+	border: 2px solid #6fd0e6;
 }
 
 #navigation li a:hover { /* Change color when hovering */
-	color: #A5EF00;
-	background-color: #97266A;
+	color: #83004F;
+	background-color: #26b8d7;
 }
 
 /* Selected menu link */
-.active {
-	background-color: #DC37B8;
-	color: #A5EF00;
-}
+
 
 
 
@@ -154,8 +163,8 @@ h4 {
 	margin-left: 18%;
 }
 .blogEntry {
-	background-color: #D9F970;
-	border: 1px dashed gray;
+	background-color: #edcdea;
+	border: 2px dashed gray;
 	padding: 25px;
 	margin-top: 25px;
 	

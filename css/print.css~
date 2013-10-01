@@ -16,7 +16,8 @@ body {
 }
 div {
 	border: 0;
-	border-color: white; 
+	border-color: white;
+	box-shadow: none; 
 }
 
 /* Show the link addresses */
@@ -32,9 +33,10 @@ a[href^="http://"] {
 }
 
 /* Remove shadow */
-div {
+.blogEntry {
 	box-shadow: none;
 }
 #contact-form {
 	box-shadow: none;
 }
+

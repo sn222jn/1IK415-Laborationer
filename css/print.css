@@ -10,7 +10,7 @@ body {
 #container, #contents {
 	width: auto; 
 	margin: 0 5%;
-	margin-left: -150px; 
+	margin-left: auto; 
 	padding: 0; 
 	float: none;
 }
