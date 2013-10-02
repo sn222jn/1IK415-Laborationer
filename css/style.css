@@ -24,26 +24,24 @@ body {
 	background-color: white;
 	position: relative;
 	z-index: 100;
+
 }
 /* Header div
 --------------------------*/
 #header {
 	height: 170px;
 	width: 960px;
-	/* border: 5px solid #8AB32D;
-	border-radius: 15px 15px 0 0; */
-	background-image: url("pics/linnaeusLogo.png");
+	
+	background-image: url("pics/vectorup.png");
 	background-repeat: no-repeat;
-	background-position: 5% 40%;
-	/*background-color: #ceeff7;*/
- 	border-radius: 15px 15px 0 0;
- 	border-bottom: 7px solid #bf5ef4;
+	background-position: 100% 0%;
+
 }
 .rightLogo {
 	height: 170px;
 	width: auto;
 	background-image: url("pics/SN.png");
-	background-position: 96% 40%;
+	background-position: 2% 40%;
 	background-repeat: no-repeat;
 }
 
@@ -265,6 +263,7 @@ table, th, td {
 	-webkit-box-shadow: 5px 5px 5px #2E2E2E;
 	box-shadow: 5px 5px 5px #2E2E2E;
 }
+
 /* Manga girl in blog
 ---------------------------*/
 #manga {
