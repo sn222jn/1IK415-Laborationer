@@ -33,7 +33,7 @@
          <div class="blogEntry">
          <h4><em>2 Oktober, 2013</em></h4>
 			<div><a id="manga"></a></div>
-         <p>Nu blir det två blogginlägg på samma dag, men jag håller nu på att läsa om CSS sprites och det påminde om ett litet projekt jag håller på med när jag har tid, som inte är så ofta. En av sakerna jag testade var att använda :hover effekten på en bild utan att behöva ladda två bilder.</p>
+         <p>Nu blir det två blogginlägg på samma dag, men jag håller nu på att läsa om CSS sprites och det påminde om ett litet projekt jag håller på med. En av sakerna jag testade var att använda :hover effekten på en bild utan att behöva ladda två bilder.</p>
          <p>Om det är CSS Sprites eller inte vet jag inte än; idag var första gången jag hörde talas om CSS sprites och jag måste fortfarande läsa mer om det. Jag lägger i alla fall till en av bilderna jag höll på jobba med.</p>
 			
 			</div>

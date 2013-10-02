@@ -11,7 +11,7 @@ h3, h4 96B62E
 -----------------*/
 
 body {
-	background-image: url("pics/mixedwide3.png")
+	background-image: url("pics/mixedwide.jpg")
 }
 /* Container div
 -------------------------*/
@@ -32,8 +32,8 @@ body {
 	width: 960px;
 	/* border: 5px solid #8AB32D;
 	border-radius: 15px 15px 0 0; */
-	background-image: url("pics/linnaeusLogo2.png");
-	background-repeat: no-repeat;
+	background-image: url("pics/linnaeusLogo.png");
+
 	background-position: 5% 40%;
 	/*background-color: #ceeff7;*/
  	border-radius: 15px 15px 0 0;
@@ -100,7 +100,8 @@ body {
 	display: block;
 	width: auto;
 	height: auto;
-	padding: 1.2em; /* Sets size of li a and thus clickable area */
+	padding: 1.2em;
+	padding-left: 2em;
 	text-decoration: none;
 	color: #83004F;
 	font-family: Verdana; sans-serif;
@@ -113,6 +114,7 @@ body {
 #navigation li a:hover { /* Change color when hovering */
 	color: #83004F;
 	background-color: #26b8d7;
+
 }
 
 /* Selected menu link */
@@ -120,6 +122,48 @@ body {
 	background-color: #bf5ef4;
 }
 
+/* CSS Sprites
+--------------------------*/
+#navigation li{
+	background-image: url("pics/sprite.png");
+	background-repeat: no-repeat;
+}
+#navigation li :hover {
+	background-image: url("pics/sprite.png");
+	background-repeat: no-repeat;
+}
+.start {
+	background-repeat: no-repeat;
+	background-position: 9px -22px;
+}
+.start a:hover {	
+	background-repeat: no-repeat;
+	background-position: 7px 24px;
+}
+.presentation {
+	background-repeat: no-repeat;
+	background-position: 9px -215px;
+}
+.presentation a:hover {	
+	background-repeat: no-repeat;
+	background-position: 7px -169px;
+}
+.laborationer {
+	background-repeat: no-repeat;
+	background-position: 9px -118px;
+}
+.laborationer a:hover {	
+	background-repeat: no-repeat;
+	background-position: 7px -72px;
+}
+.kontakt {
+	background-repeat: no-repeat;
+	background-position: 9px -312px;
+}
+.kontakt a:hover {	
+	background-repeat: no-repeat;
+	background-position: 7px -266px;
+}
 
 
 /* Headings
@@ -220,6 +264,21 @@ table, th, td {
 	-moz-box-shadow: 5px 5px 5px #2E2E2E;
 	-webkit-box-shadow: 5px 5px 5px #2E2E2E;
 	box-shadow: 5px 5px 5px #2E2E2E;
+}
+/* Manga girl in blog
+---------------------------*/
+#manga {
+	display: block;
+	width: 129px;
+	height: 200px;
+	background: url('pics/LuckyStar.png') bottom;
+	background-repeat: no-repeat;
+	float: right;
+	margin-top: -85px;
+	margin-left: 30px;
+}
+#manga:hover {
+	background-position: 0 0;
 
 }
 
