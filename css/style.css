@@ -17,6 +17,7 @@ body {
 -------------------------*/
 #container {
 	width: 960px;
+	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	border: 0;
@@ -62,11 +63,13 @@ body {
 /* Footer div
 -------------------------*/
 #footer {
-	width: auto;
+	position: relative;;
+
 	height: 150px;
-	background-image: url("pics/gerbera.jpg");
+	background-image: url("pics/vector3.png");
 	background-repeat: no-repeat;
-	background-position: right;
+
+	background-position: 660px 0px;
 	border-radius: 0 0 15px 0;
 	z-index: 250;
 }
@@ -131,23 +134,18 @@ body {
 	background-repeat: no-repeat;
 }
 .start {
-	background-repeat: no-repeat;
 	background-position: 9px -22px;
 }
 .start a:hover {	
-	background-repeat: no-repeat;
 	background-position: 7px 24px;
 }
 .presentation {
-	background-repeat: no-repeat;
 	background-position: 9px -215px;
 }
 .presentation a:hover {	
-	background-repeat: no-repeat;
 	background-position: 7px -169px;
 }
 .laborationer {
-	background-repeat: no-repeat;
 	background-position: 9px -118px;
 }
 .laborationer a:hover {	
@@ -155,11 +153,9 @@ body {
 	background-position: 7px -72px;
 }
 .kontakt {
-	background-repeat: no-repeat;
 	background-position: 9px -312px;
 }
 .kontakt a:hover {	
-	background-repeat: no-repeat;
 	background-position: 7px -266px;
 }
 
@@ -278,6 +274,5 @@ table, th, td {
 }
 #manga:hover {
 	background-position: 0 0;
-
 }
 
