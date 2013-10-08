@@ -19,8 +19,7 @@ h3, h4 96B62E
     zoom: 1.0;
 }
 
-/* Containers
--------------------------------*/
+
 body {
 	background-image: url("pics/mixedwide.jpg")
 }
