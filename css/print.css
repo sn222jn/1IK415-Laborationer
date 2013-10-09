@@ -10,9 +10,12 @@ body {
 #container, #contents {
 	width: auto; 
 	margin: 0 5%;
-	margin-left: auto; 
+	margin-left: -10em; 
 	padding: 0; 
 	float: none;
+}
+.blogEntry {
+	page-break-inside: avoid;
 }
 div {
 	border: 0;

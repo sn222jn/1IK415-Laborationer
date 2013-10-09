@@ -2,15 +2,16 @@
 <html lang="sv">
     <head>              
         <title>Sylvesters Sida</title>
-        <meta charset="utf-8">        
+        <meta charset="utf-8" />        
         
-        <link href="css/style.css" rel="stylesheet" type="text/css" />
-        <link href="css/print.css" rel="stylesheet" type="text/css" media="print" />
+			<link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" media="print" href="css/print.css" />
+        <link rel="stylesheet" type="text/css" media="only Screen and (max-width: 480px)" href="css/screen.css" />
         
         <link rel="shortcut icon" type="image/x-icon" href="css/pics/favicon.ico" />       
         
     </head>
-    <body>
+    <body id="start">
     	<div id="container">
         <div id="header">
         		<div class="rightLogo"></div>
@@ -18,7 +19,7 @@
         <div id="navigation">
             <nav>
                 <ul>
-                    <li class="active start"><a href="#">Start</a></li>
+                    <li class="start"><a href="#" id="current">Start</a></li>
                     <li class="presentation"><a href="pages/presentation.html">Presentation</a></li>
                     <li class="laborationer"><a href="pages/laborationer.html">Laborationer</a></li>
                     <li class="kontakt"><a href="pages/kontakt.html">Kontakt</a></li>
@@ -32,30 +33,30 @@
             <p>Det här är min först personliga webbsida. Jag har skapat ett par sidor innan men aldrig en egen sida. Jag vet inte exakt vad jag kommer publicera på sidan men jag har skapat själva strukturen och nu får vi se vad som växer fram...</p>
             
             <h2>Kursblog</h2>
-         <div class="blogEntry">
-         <h4><em>2 Oktober, 2013</em></h4>
-			<div><a id="manga"></a></div>
-         <p>Nu blir det två blogginlägg på samma dag, men jag håller nu på att läsa om CSS sprites och det påminde om ett litet projekt jag håller på med när jag har tid, som inte är så ofta. En av sakerna jag testade var att använda :hover effekten på en bild utan att behöva ladda två bilder.</p>
-         <p>Om det är CSS Sprites eller inte vet jag inte än; idag var första gången jag hörde talas om CSS sprites och jag måste fortfarande läsa mer om det. Jag lägger i alla fall till en av bilderna jag höll på jobba med.</p>
-			
-			</div>
-            
-         <div class="blogEntry">
-            <h4><em>2 Oktober, 2013</em></h4>
-            <p>Idag har jag gjort en väldigt rolig uppgift. Jag fick uppgiften att kopiera en webbsida, vad gäller utseendet. Jag fick en HTML fil och en bild på hur sidan skulle se ut. Med hjälp av CSS skulle jag kopiera sidan utan att göra några som helst ändringar in HTML filen.</p>
-            <p>Här är en <a href="https://c9.io/sn222jn/uppgift-3-3/workspace/index.html#">länk</a> till det färdiga resultatet.</p>
+	         <div class="blogEntry">
+	         <h4><em>2 Oktober, 2013</em></h4>
+				<div><a id="manga"></a></div>
+	         <p>Nu blir det två blogginlägg på samma dag, men jag håller nu på att läsa om CSS sprites och det påminde om ett litet projekt jag håller på med när jag har tid, som inte är så ofta. En av sakerna jag testade var att använda :hover effekten på en bild utan att behöva ladda två bilder.</p>
+	         <p>Om det är CSS Sprites eller inte vet jag inte än; idag var första gången jag hörde talas om CSS sprites och jag måste fortfarande läsa mer om det. Jag lägger i alla fall till en av bilderna jag höll på jobba med.</p>
 				
-			</div>
+				</div>
+            
+	         <div class="blogEntry">
+	            <h4><em>2 Oktober, 2013</em></h4>
+	            <p>Idag har jag gjort en väldigt rolig uppgift. Jag fick uppgiften att kopiera en webbsida, vad gäller utseendet. Jag fick en HTML fil och en bild på hur sidan skulle se ut. Med hjälp av CSS skulle jag kopiera sidan utan att göra några som helst ändringar in HTML filen.</p>
+	            <p>Här är en <a href="https://c9.io/sn222jn/uppgift-3-3/workspace/index.html#">länk</a> till det färdiga resultatet.</p>
+					
+				</div>
             
             <div class="blogEntry">
 	            <h4><em>25 September, 2013</em></h4>
 	            <img class="right" src="pics/feather.png" id="feather" alt="A feather">
 	            <p>Jag håller på med C# förfullt men jag måste ändå hitta lite tid till HTML/CSS. Trots att det är relativt enkelt så är det alltid något som inte fungerar som det ska. Idag t.ex. så ville inte z-index fungera trots att jag använde position: absolute i CSS. Idag lärde jag mig också att justera bilder till höger, vänster och centralt.</p>
-				<p>Jag vill passa på att visa en teckning som en väninna gjorde till mig när jag höll på att göra en websida åt en förskola. Den är inspirerad av en påfågelsfjäder.</p>
+					<p>Jag vill passa på att visa en teckning som en väninna gjorde till mig när jag höll på att göra en websida åt en förskola. Den är inspirerad av en påfågelsfjäder.</p>
 					
-			</div>
+				</div>
 				
-			<div class="blogEntry">
+				<div class="blogEntry">
 	            <h4><em>21 September, 2013</em></h4>
 	            <img class="blogCenter" src="pics/olive.svg" id="olive" alt="An olive branch">
 	            <p class="textLeft">Idag har jag skapat en vector bild i formatet SVG (Scalable Vector Graphics). Tanken var att använda den som en logga på en väns websida, men sen så skapade jag en annan, mer passande logga.</p>
@@ -73,6 +74,18 @@
 	            	    						
 	            </video>
             </div> 
+			</div>
+			<div class="rightColumn">
+				<h3>Loredana</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tincidunt leo, ac rhoncus risus. Aenean ornare magna eget sapien molestie, vitae pretium ipsum fermentum. Phasellus euismod nulla sit amet rhoncus volutpat. Ut semper nisl eu diam faucibus hendrerit. Aenean scelerisque quis nunc vel tempus. Curabitur egestas congue nunc. Nullam ac orci ullamcorper felis vehicula aliquet. Nam lobortis risus ac velit blandit eleifend. Cras sodales nec nibh vel imperdiet. Nullam nec mauris vel mauris viverra viverra. Duis quis consequat tellus, ut placerat diam. 
+				</p>
+				<p>
+					Vivamus non convallis leo, ut molestie odio. Donec consectetur eleifend dui. Morbi venenatis leo ultricies, molestie odio ac, tempor dolor. Nam et neque in massa auctor sodales. In eu nunc erat. Mauris volutpat tempor ipsum. Sed imperdiet velit mi, quis ornare tortor fringilla non. Fusce gravida sapien a ante suscipit, vel gravida libero scelerisque. Vivamus eleifend tempor consectetur. Aenean ut magna et turpis accumsan malesuada at quis ante. Integer vel enim tincidunt, porttitor mi at, sollicitudin lacus. Fusce sagittis ante elit, id dignissim risus tempor egestas. Aliquam lobortis ipsum non turpis laoreet suscipit. Praesent accumsan sagittis aliquam. 
+				</p>
+				<p>
+					Donec aliquam facilisis metus ac condimentum. Aliquam porta odio et est luctus, eu dictum risus lobortis. Ut convallis sodales rutrum. Aliquam posuere semper ligula sit amet commodo. Sed consectetur velit nec dui pharetra, et condimentum ligula posuere. Pellentesque vel mattis sem. Suspendisse risus eros, bibendum vel commodo non, congue nec tortor. Morbi vel purus sed nisi scelerisque consectetur. Nulla et urna accumsan, elementum massa ac, auctor quam. Sed non sem tellus. Fusce aliquet lacinia arcu, sed consectetur nibh faucibus sed. Maecenas ut bibendum massa. Nullam sed ligula gravida, egestas odio sit amet, eleifend tortor. Nunc tristique, augue a suscipit fringilla, orci erat lacinia nulla, et ornare sapien ante quis nisi. Fusce a gravida leo, commodo sodales diam. Donec dictum nibh vitae metus lacinia pharetra. 
+				</p>
 			</div>
       	<div id="footer">
 				      	

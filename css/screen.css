@@ -1,0 +1,88 @@
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+	body {
+		background-image: url(/pics/mixedwide.jpg);
+	}
+	#header, #container, #contents, #footer {
+	float: none;
+	width: 100%;	
+	}
+
+	#header {
+		width: 100%;
+		margin: 0;
+		text-align: left;
+		background-image: url(/pics/SN.svg);
+		background-position: left 5px;
+		background-repeat: no-repeat;
+	}
+	
+	img {
+		width: 60%;
+	}
+	video {
+		width: 100%;
+		height: 100%;	
+		margin: 0;
+	}
+	#results {
+	font-size: .8em;	
+	
+	}
+	/* Navigation menu
+	-------------------------*/
+	#navigation ul { 
+		margin: 0; 
+		padding: auto; 
+		list-style-type: none; 
+		text-align: center; 
+		background-color: #000;
+		font-family: Verdana, sans-serif; 
+		font-weight: bold;
+		width: auto;
+		font-size: 1em;
+		} 
+	 
+	#navigation ul li {  
+		float: center; 
+
+		}
+	
+	#navigation ul li a { 
+		text-decoration: none;
+		margin: 1em; 
+		padding: 0; 
+		background-color: #000; 
+		}
+	
+	#navigation ul li a:hover { 
+		color: white; 
+		background-color: #046073; 
+		}
+	
+	 /* Selected menu item */
+	body#start a#current,
+	body#laborationer a#current,
+	body#presentation a#current,
+	body#kontakt a#current {
+		color: #000;
+		background-color: #9cb6bc;
+	}
+	#contents {
+		text-align: left;	
+		float: left;
+		width: 100%;
+		margin: 0;
+	}
+	.rightColumn {
+		position: relative;
+		width: 100%;
+		float: left;
+		background-color: pink;
+	}
+	#container {
+		width: 100%;
+		margin: 0;	
+	}
+
+	
+}

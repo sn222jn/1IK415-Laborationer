@@ -4,12 +4,13 @@
         <title>Kontakt</title>
         <meta charset="utf-8">
         
-        <link href="../css/style.css" rel="stylesheet" type="text/css" />
-        <link href="../css/print.css" rel="stylesheet" type="text/css" media="print" />
+<link rel="stylesheet" type="text/css" href="../css/style.css" />
+        <link rel="stylesheet" type="text/css" media="print" href="../css/print.css" />
+        <link rel="stylesheet" type="text/css" media="only Screen and (max-width: 480px)" href="../css/screen.css" />
         
         <link rel="shortcut icon" type="image/x-icon" href="../css/pics/favicon.ico" /> 
     </head>
-    <body>
+    <body id="kontakt">
     	<div id="container">
     		<div id="header">
         	<div class="rightLogo"></div> 
@@ -20,7 +21,7 @@
                     <li class="start" ><a href="../index.html">Start</a></li>
                     <li class="presentation" ><a href="presentation.html">Presentation</a></li>
                     <li class="laborationer" ><a href="laborationer.html">Laborationer</a></li>
-                    <li class="active kontakt"><a href="#">Kontakt</a></li>
+                    <li class="kontakt"><a href="#" id="current">Kontakt</a></li>
                 </ul>  
             </nav>
         </div>
@@ -38,7 +39,7 @@
                     <label for="email">E-post:</label> <input type="email" name="email" id="email" value="" />
                     </p>
                     <p>
-                    <label for="number">Telefon:</label> <input type="number" name="number" id="phone" value="" />
+                    <label for="tel">Telefon:</label> <input type="tel" name="tel" id="tel" value="" />
                     </p>
                 </fieldset>
                 <fieldset class="radioButtons">
@@ -47,12 +48,13 @@
                     <label for="mail">E-post</label> <input type="radio" name="contact" id="email" value="email" checked="checked">
                     </p>
                     <p>
-                    <label for="phone">Telefon</label> <input type="radio" name="contact" id="phone" value="phone"></li>
+                    <label for="tel">Telefon</label> <input type="radio" name="contact" id="tel" value="tel"></li>
                     </p>
                 </fieldset>
                 
                 <fieldset>
                 	<legend>Ange fråga och meddelande</legend>
+                		<p>
                   	<select name="Fråga" id="question">
                      	<option value="">Vad gäller det?</option>
                         <option value="website">Webbsidan</option>
@@ -60,11 +62,12 @@
                         <option value="project">Projekt</option>
                         <option value="other">Annat</option>
                     	</select>
+                    	</p>
                     	<p>
                     		<label for="message">Meddelande:</label> 
                   	</p>
                   <p>
-                  	<textarea name="message" id="message" cols="40" rows="10"></textarea>
+                  	<textarea name="message" id="message" ></textarea>
                 	</p>
                 </fieldset>
                 <p></p>
