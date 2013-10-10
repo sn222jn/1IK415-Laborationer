@@ -19,6 +19,19 @@
 	img {
 		width: 60%;
 	}
+	/* Removes image float */
+	.right {
+		float: none;
+		margin: 0;
+	}
+	#manga {
+		margin-top: 1em;
+		margin-left: 0;
+		float: none;
+	}
+	.blogCenter {
+		margin-left: 0;
+	}
 	video {
 		width: 130%;
 		height: 130%;	
@@ -67,6 +80,18 @@
 		color: #000;
 		background-color: #9cb6bc;
 	}
+	h1 {
+		font-size: 150%;	
+	}
+	h2  {
+		font-size: 130%;	
+	}
+	h3 {
+		font-size: 100%;	
+	}
+	h4 {
+		font-size: 110%;	
+	}
 	#contents {
 		text-align: left;	
 		float: left;
@@ -78,6 +103,7 @@
 		position: relative;
 		width: 90%;
 		float: left;
+		border: none;
 	}
 	.presentLeft {
 		float: left;
@@ -90,7 +116,8 @@
 		padding: .5em;
 		margin-top: 0;
 		border: none;		
-}
+	}
+
 	.labRight {
 		position: relative;
 		margin-top: 0;
@@ -100,6 +127,9 @@
 		padding-left: 0;
 		border: none;
 		}
+	#footer {
+		display: none;
+	}
 	#container {
 		width: 100%;
 		margin: 0;	

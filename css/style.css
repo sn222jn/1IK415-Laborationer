@@ -2,11 +2,12 @@
 -------------------
 Menu 407cc3
 Menu font 83004F
-Menu hover 26b8d7
-Menu selected item 046073
-blogEntry edcdea
+Menu hover 046073
+Menu selected item 9cb6bc
+blogEntry 9cb6bc
 h1 79005E, h2 799E00
-h3, h4 96B62E
+h3 96B62E
+h4 046073
 
 -----------------*/
 
@@ -18,7 +19,7 @@ body {
 #container {
 
 	width: 60em;
-	height: 190em;	
+	height: auto;	
 	margin-left: auto;
 	margin-right: auto;
 	border: 0;
@@ -53,7 +54,7 @@ body {
 #content {
 	float: left;
 	width: 70%;
-	height: auto;
+	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: auto;
@@ -61,20 +62,23 @@ body {
 	font-size: 1em;
 	padding: 2em;
 	z-index: 150;
+
 }
 .rightColumn {
 	position: relative;
-	margin-top: 15%;
+	margin-top: 25%;
 	width: 18%;
 	float: right;
 	padding: 1.5em;
 	border-left: 1px solid gray;
+	overflow: auto;
 }
 
 .presentLeft {
 	float: left;
 	width: 45%;
 	padding: 1.5em;
+	overflow: auto;
 }
 .presentRight {
 	float: right;
@@ -82,6 +86,7 @@ body {
 	border-left: 1px solid gray;
 	padding: 1.5em;
 	margin-top: 13%;
+	overflow: auto;
 	
 }
 .labLeft {
@@ -89,26 +94,28 @@ body {
 	width: auto;
 	margin-left: 2em;
 	padding-left: 1em;
+	overflow: auto;
 }
 .labRight {
 	position: relative;
-	margin-top: 0;
+	margin-top: 25%;
 	margin-left: 3em;
 	width: auto;
 	float: right;
-	padding-left: 3em;
+	padding-left: 2em;
+	padding-right: 1em;
 	border-left: 1px solid gray;
+	overflow: auto;
 }
 /* Footer div
 -------------------------*/
 #footer {
-	position: relative;
-	margin-top: 270.7%;
+
 	height: 18em;
 	background-image: url("pics/vector3.png");
 	background-repeat: no-repeat;
 
-	background-position: 660px 0px;
+	background-position: bottom right;
 	border-radius: 0 0 15px 0;
 	z-index: 250;
 }
@@ -171,7 +178,7 @@ h3 {
 }
 h4 {
 	font-family: Garamond, serif;
-	color: #96B62E;
+	color: #046073;
 	font-size: 1.5em;
 }
 /* Logo on index page
@@ -198,8 +205,8 @@ h4 {
 	margin-right: auto;
 }
 .blogEntry {
-	background-color: #edcdea;
-	border: 2px dashed gray;
+	background-color: #9cb6bc;
+	border: 2px dashed white;
 	padding: 2em;
 	margin-top: 2em;
 	
