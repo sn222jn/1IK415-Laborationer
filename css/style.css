@@ -110,7 +110,7 @@ body {
 /* Footer div
 -------------------------*/
 #footer {
-
+	
 	height: 18em;
 	background-image: url("pics/vector3.png");
 	background-repeat: no-repeat;
@@ -150,16 +150,13 @@ body {
 	}
 
  /* Selected menu item */
-body#start a#current,
-body#laborationer a#current,
-body#presentation a#current,
-body#kontakt a#current {
+#start #current,
+#laborationer #current,
+#presentation #current,
+#kontakt #current {
 	color: #000;
 	background-color: #9cb6bc;
 }
-
-
-
 
 /* Headings
 --------------------------*/
@@ -276,6 +273,14 @@ fieldset {
 
 /* Manga girl in blog
 ---------------------------*/
+
+/* Microformat hcard 
+---------------------------*/
+#hcard {
+	font-family: Garamond, serif;
+	font-size: 1em;
+}
+
 #manga {
 	display: block;
 	width: 8.0625em;
