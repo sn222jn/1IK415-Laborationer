@@ -1,0 +1,160 @@
+body {
+	font-family: 'Devonshire', cursive;
+	background-color: brown;
+	z-index: 0;
+	position: relative;
+}
+h1 {
+	text-align: center;
+	color: white;
+	font-size: 4em;
+	font-weight: lighter;
+
+}
+/* Right column */
+.rightSide {
+	float: right;
+	font-size: 1.3em;
+	position: relative;
+	padding-left: 1em;
+	color: white;
+	border-left: 1px solid white;
+	margin-top: 20%;
+
+}
+/* The image gallery */
+.imageGallery {
+	width: 70%;
+	position: relative;
+	float: left;
+	z-index: 100;
+}
+/* Fake random effect on images */
+.imageGallery img { 
+	-webkit-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	transform: rotate(5deg);
+	position: relative;
+}
+.imageGallery a:nth-of-type(2n) { 
+	-webkit-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	transform: rotate(-10deg); 
+	position: relative;
+}
+.imageGallery a:nth-child(5n) { 
+	-webkit-transform: rotate(10deg);
+	-o-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+	transform: rotate(10deg);
+	position: relative; 
+}
+
+/* Straighten images */
+.imageGallery img:hover {
+	width: 12em;
+	transition: all;
+	transform: all;
+<<<<<<< HEAD
+=======
+	z-index: 600;
+	
+/* straighten images */
+>>>>>>> Working on content: attr()
+	-webkit-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	transform: rotate(0deg);
+	position: relative;
+/* Slow hover off effect */
+    -moz-transition-duration: 1.5s;
+    -webkit-transition-duration: 1.5s;
+	-o-transition-duration: 1.5s;
+	transition-duration: 1.5s;
+}
+.imageGallery a:nth-of-type(2n):hover { 
+	-webkit-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	transform: rotate(0deg); 
+	position: relative;
+}
+.imageGallery a:nth-child(5n):hover { 
+	-webkit-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	transform: rotate(0deg);
+	position: relative; 
+}
+/* Image properties */
+img {
+	position: relative;
+
+	position: absolute;
+
+	width: 10em;
+	padding: .5em .5em 3em .5em;
+	background-color: white;
+	color: blue;
+	border: none;
+
+	margin: 1em 2.5em 1em 2.5em;
+	z-index: 50;
+
+
+	margin-left: 2em;
+	z-index: 50;
+	bottom: 0;
+	left: 7em;
+	text-align: center;
+	
+
+/* Add shadow */
+	-o-box-shadow: 5px 5px 5px #2E2E2E;
+	-moz-box-shadow: 5px 5px 5px #2E2E2E;
+	-webkit-box-shadow: 5px 5px 5px #2E2E2E;
+	box-shadow: 5px 5px 5px #2E2E2E;
+	
+/* Slow hover off effect */
+    -moz-transition-duration: 1.5s;
+    -webkit-transition-duration: 1.5s;
+	-o-transition-duration: 1.5s;
+	transition-duration: 1.5s;
+}
+
+img:hover {
+
+}
+a {
+
+	padding-left: -20;
+	text-decoration: none;
+}
+a::before {
+	content: attr(title);
+	font-size: 2em;
+	z-index: -1100;
+	position: absolute;
+	padding: .3em;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+
+}
+a:after {
+	width: 10em;
+	position: relative;
+	content: attr(title);
+	font-size: 2em;
+	z-index: 1100;
+	margin-left: 0;
+	right: 0;
+	text-align: center;
+	bottom: .8em;
+}
+
+
+
